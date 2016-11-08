@@ -4,6 +4,7 @@ package Subsets_II_90;
  * Created by tianhuihuang on 2016-11-07.
  */
 //虽然可以过，不过数据类型不一样
+//this method only leetcode works, for no data type restrication and for lintcode with compiler error
 public class Solution {
     private List<List<Integer>> res = new ArrayList<>();
     public List<List<Integer>> subsetsWithDup(int[] nums) {
